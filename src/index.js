@@ -21,3 +21,23 @@ tabContainer.appendChild(aboutBtn);
 tabContainer.appendChild(contactBtn);
 tabContainer.classList.add('tabContainer');
 content.appendChild(tabContainer);
+
+let main = document.createElement('div');
+let home = document.createElement('div');
+let homeImg = new Image();
+homeImg.src = '../src/food.webp';
+let homeText = document.createElement('div');
+main.classList.add('main');
+home.classList.add('home');
+homeText.textContent = "welcome to the restaurant! image from freepik.com";
+homeText.classList.add('homeText');
+main.appendChild(home);
+home.appendChild(homeImg);
+home.appendChild(homeText);
+
+content.appendChild(main);
+
+
+function makeHome(){
+
+}

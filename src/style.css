@@ -26,3 +26,30 @@ button {
     color: whitesmoke;
     border-radius: 5px 5px 0 0;
 }
+.activeBtn {
+    background-color: rgb(46, 18, 71);
+
+}
+.main {
+    background-color: rgb(46, 18, 71);
+    margin: 0 35px 0 35px ;
+    padding: 35px;
+    height: 80vh;
+ 
+    
+}
+.home {
+    color: rgb(237, 237, 237);
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+.homeText{
+    position: absolute;
+    z-index: 2;
+    font-size: 24px;
+
+}
+img {
+    position: absolute;
+}
