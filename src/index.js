@@ -3,7 +3,7 @@ let content = document.querySelector('#content');
 let header = document.createElement('div');
 
 header.classList.add('header');
-header.innerText = 'The Restaraunt'
+header.innerText = 'The Restaurant'
 
 content.appendChild(header);
 
@@ -19,5 +19,5 @@ contactBtn.textContent = "Contact";
 tabContainer.appendChild(homeBtn);
 tabContainer.appendChild(aboutBtn);
 tabContainer.appendChild(contactBtn);
-
+tabContainer.classList.add('tabContainer');
 content.appendChild(tabContainer);
