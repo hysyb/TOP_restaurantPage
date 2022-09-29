@@ -1,1 +1,1 @@
-console.log("hello");
+(()=>{console.log("hello");let e=document.querySelector("#content"),t=document.createElement("div");t.classList.add("header"),t.innerText="The Restaraunt",e.appendChild(t)})();
