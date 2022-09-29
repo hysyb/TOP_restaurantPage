@@ -15,7 +15,6 @@ body {
     display:flex;
     justify-content: center;
     width: 100%;
-    border: solid 1px black;
     gap: 15px;
     margin-top: 2vh;
 }
@@ -28,6 +27,7 @@ button {
 }
 .activeBtn {
     background-color: rgb(46, 18, 71);
+    border-bottom: none;
 
 }
 .main {

@@ -16,6 +16,21 @@ homeBtn.textContent = "Home";
 aboutBtn.textContent = "About";
 contactBtn.textContent = "Contact";
 
+
+
+function setActive(){
+    if (homeBtn.classList.contains('activeBtn')){homeBtn.classList.remove('activeBtn')};
+    if (aboutBtn.classList.contains('activeBtn')){aboutBtn.classList.remove('activeBtn')};
+    if (contactBtn.classList.contains('activeBtn')){contactBtn.classList.remove('activeBtn')};
+    console.log(this);
+    this.classList.add('activeBtn');
+}
+
+homeBtn.addEventListener('click', setActive);
+aboutBtn.addEventListener('click', setActive);
+contactBtn.addEventListener('click', setActive);
+
+
 tabContainer.appendChild(homeBtn);
 tabContainer.appendChild(aboutBtn);
 tabContainer.appendChild(contactBtn);
