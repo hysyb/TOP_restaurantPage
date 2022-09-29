@@ -1,4 +1,4 @@
-console.log('hello');
+import './style.css'
 let content = document.querySelector('#content');
 let header = document.createElement('div');
 
